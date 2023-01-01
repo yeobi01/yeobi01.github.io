@@ -77,7 +77,6 @@ content:
         description: | # this will include new lines to allow paragraphs
           - NodeJS와 MySQL를 이용해 RestAPI 구현
           - title, author, description의 CRUD 구현
-    content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
