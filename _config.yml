@@ -65,10 +65,10 @@ content:
         title: NodeJS & MySQL
         link: https://github.com/yeobi01/WEB2_Node.js-MySQL # Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         link_text: Github repository
-         additional_links:
-           - title:  Github repository
-             icon: fab fa-github
-             url: https://github.com/yeobi01/WEB2_Node.js-MySQL
+        #  additional_links:
+        #    - title:  Github repository
+        #      icon: fab fa-github
+        #      url: https://github.com/yeobi01/WEB2_Node.js-MySQL
         #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
         #     icon: fab fa-github
         #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
