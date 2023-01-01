@@ -52,7 +52,7 @@ instagram_username: yeobi._.01
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  **백엔드 개발자**로 성장하기 위해 공부하고 있는 대학생입니다. 현재는 어떤 기술과 언어가 가장 잘 맞는지 탐색하고 있고, 가장 잘 맞는 기술과 언어를 깊게 공부해볼 예정입니다. <br />
+  **백엔드 개발자**로 성장하기 위해 공부하고 있는 대학생입니다. NodeJS / ReactJS / Java & Spring 등 입문 강의를 들으며 제게 가장 잘 기술을 탐색하고 있습니다. <br />
   모든 것이 부족한 저이지만, 가장 부족한 것은 함께 성장할 친구의 부재라고 생각합니다. 함께 성장할 친구를 찾고, 같이 더 높은 수준으로 성장하기 위해 현재는 **소프트웨어마에스트로**에 참여를 생각하고 있습니다.
 
 content:
@@ -77,6 +77,25 @@ content:
         description: | # this will include new lines to allow paragraphs
           - NodeJS와 MySQL를 이용해 RestAPI 구현
           - title, author, description의 CRUD 구현
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: ReactJS Movie App
+        link: https://github.com/yeobi01/study_ReactJS # Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Github repository
+        #  additional_links:
+        #    - title:  Github repository
+        #      icon: fab fa-github
+        #      url: https://github.com/yeobi01/WEB2_Node.js-MySQL
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          Nomad Coder님의 ReactJS 입문 강의
+        description: | # this will include new lines to allow paragraphs
+          - ReactJS를 이용해 Movie App 구현
+          - Movie API, useEffect, useState 등을 이용한 영화의 구성요소 로딩
   - title: Experience
     layout: list
     content:
@@ -106,6 +125,9 @@ content:
       This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+
+      참조 : [인프랩 CTO 이동욱님 이력서](https://jojoldu.github.io/)
+
 
 # Footer
 footer_show_references: true
