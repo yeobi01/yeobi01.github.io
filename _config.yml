@@ -9,10 +9,10 @@ version: 2
 name: 김상엽
 title: 백엔드 엔지니어 지망생
 email: yeobi_01@naver.com
-# email_title: Email (Email title override)
-phone: 010-6349-4142
-# phone_title: Phone (Phone title override)
 website: https://velog.io/@yeobi01
+phone: 010-6349-4142
+# email_title: Email (Email title override)
+# phone_title: Phone (Phone title override)
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
@@ -52,34 +52,35 @@ instagram_username: yeobi._.01
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  백엔드 개발자로 성장하기 위해 공부하고 있는 대학생입니다. 현재는 어떤 기술과 언어가 가장 잘 맞는지 탐색하고 있고, 가장 잘 맞는 기술과 언어를 깊게 공부해볼 예정입니다. <br />
-  모든 것이 부족한 저이지만, 가장 부족한 것은 함께 성장할 친구의 부재라고 생각합니다. 함께 성장할 친구를 찾고, 같이 더 높은 수준으로 성장하기 위해 현재는 소프트웨어마에스트로를 생각하고 있습니다.
+  **백엔드 개발자**로 성장하기 위해 공부하고 있는 대학생입니다. 현재는 어떤 기술과 언어가 가장 잘 맞는지 탐색하고 있고, 가장 잘 맞는 기술과 언어를 깊게 공부해볼 예정입니다. <br />
+  모든 것이 부족한 저이지만, 가장 부족한 것은 함께 성장할 친구의 부재라고 생각합니다. 함께 성장할 친구를 찾고, 같이 더 높은 수준으로 성장하기 위해 현재는 **소프트웨어마에스트로**에 참여를 생각하고 있습니다.
 
 content:
-  - title: Projects # Title for the section
+  - title: Study # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        title: NodeJS & MySQL
+        link: https://github.com/yeobi01/WEB2_Node.js-MySQL # Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Github repository
+         additional_links:
+           - title:  Github repository
+             icon: fab fa-github
+             url: https://github.com/yeobi01/WEB2_Node.js-MySQL
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
+          Egoing Lee님의 NodeJS & MySQL 강의
         description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+          - NodeJS와 MySQL를 이용해 RestAPI 구현
+          - title, author, description의 CRUD 구현
   - title: Experience
     layout: list
     content:
-      - layout: right
+      - layout: left
         title: Company name
         sub_title: Job title
         caption: Date Range (eg. November 2016 - present)
