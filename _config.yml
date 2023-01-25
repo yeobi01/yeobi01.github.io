@@ -52,13 +52,32 @@ instagram_username: yeobi._.01
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  **백엔드 개발자**로 성장하기 위해 공부하고 있는 대학생입니다. NodeJS / ReactJS / Java & Spring 등 입문 강의를 들으며 제게 가장 잘 기술을 탐색하고 있습니다. <br />
-  모든 것이 부족한 저이지만, 가장 부족한 것은 함께 성장할 친구의 부재라고 생각합니다. 함께 성장할 친구를 찾고, 같이 더 높은 수준으로 성장하기 위해 현재는 **소프트웨어마에스트로**에 참여를 생각하고 있습니다.
+  **백엔드 개발자**로 성장하기 위해 공부하고 있는 대학생입니다. NodeJS / ReactJS 등 입문 강의를 들으며 다양한 기술들을 체험해보았습니다.<br />
+  현재는 NodeJS에 대해 더 깊이 공부해보기 위해서, 조현영님의 Node.JS 교과서 3판 강의를 통해 공부하고 있습니다. NodeJS의 다양한 기능과 다양한 모듈들을 알아보고 있으며, 강의에 포함된 간단한 서비스 제작들을 통해 실제로 프론트와 백이 어떻게 소통하는지 배우고 있습니다. 또한, [velog](https://velog.io/@yeobi01/series/NodeJSBook3th)에 기록하고 있습니다.
+  
 
 content:
   - title: Study # Title for the section
     layout: list # Type of content section (list/text)
     content:
+        - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        title: NodeJS 교과서 3판
+        link: https://github.com/yeobi01/NodeJS_Book_3th # Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        link_text: Github repository link
+        #  additional_links:
+        #    - title:  Github repository
+        #      icon: fab fa-github
+        #      url: https://github.com/yeobi01/WEB2_Node.js-MySQL
+        #   - title:  Github page for project (eg. sproogen/modern-resume-theme)
+        #     icon: fab fa-github
+        #     url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        quote: >
+          ZeroCho님의 NodeJS 교과서 3판 강의
+        description: | # this will include new lines to allow paragraphs
+          - NodeJS의 기본 개념과 다양한 모듈
+          - 간단한 웹서비스 제작 (노드버드, 실시간 경매 등)
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
@@ -107,15 +126,6 @@ content:
           백기선님의 Java 스터디 
         description: | # this will include new lines to allow paragraphs
           - Java의 기본 문법 공부중..
-      - layout: left
-        border: weak
-        title: Spring Study
-        link: https://www.inflearn.com/roadmaps/373
-        link_text: Inflearn roadmap link
-        quote: >
-          김영한의 Spring 로드맵 강의
-        description: | # this will include new lines to allow paragraphs
-          - Java Study 이후 시작 예정..
   - title: Experience
     layout: list
     content:
